@@ -1,0 +1,25 @@
+{
+  "name": "coolmetic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "nodemon test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.5.0",
+    "firebase-admin": "^9.7.0",
+    "firebase-tools": "^9.10.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.3"
+  }
+}
